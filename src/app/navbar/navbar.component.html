@@ -1,0 +1,46 @@
+<nav class="navbar">
+    <div class="navbar-logo">
+      <img src="../../assets/logos/white-logo.png" alt="Club Logo">
+    </div>
+    <div class="hamburger" (click)="toggleNavbar()">
+      &#9776; <!-- Hamburger icon -->
+    </div>
+    <div class="navbar-links" [class.show]="isNavbarVisible">
+      <div class="nav-item">
+        <a href="#home">Home</a>
+      </div>
+      <div class="nav-item" [class.active]="activeSubNav === 'about'">
+        <a href="javascript:void(0)" (click)="toggleSubNav('about')">About</a>
+        <div class="sub-nav">
+          <a href="#ev-history" routerLink="/ev-history">EV History</a>
+          <a href="#ic-history" routerLink="/ic-history">IC History</a>
+          <a href="#meet-the-team" routerLink="/meet-the-team">Meet the Team</a>
+        </div>
+      </div>
+      <div class="nav-item" [class.active]="activeSubNav === 'subteams'">
+        <a href="javascript:void(0)" (click)="toggleSubNav('subteams')">Sub Teams</a>
+        <div class="sub-nav">
+          <a href="#aerodynamics" routerLink="/aerodynamics">Aerodynamics</a>
+          <a href="#brakes-controls" routerLink="/brakes-and-controls">Brakes and Controls</a>
+          <a href="#vehicle-dynamics" routerLink="/vehicle-dynamics">Vehicle Dynamics</a>
+          <a href="#electronics" routerLink="/electronics">Electronics</a>
+          <a href="#powertrain" routerLink="/powertrain">Powertrain</a>
+        </div>
+      </div>
+      <div class="nav-item" [class.active]="activeSubNav === 'competition'">
+        <a href="javascript:void(0)" (click)="toggleSubNav('competition')">Competition</a>
+        <div class="sub-nav">
+          <a href="#ic-competition" routerLink="/ic-competition">Combustion</a>
+          <a href="#ev-competition" routerLink="/ev-competition">Electric</a>
+        </div>
+      </div>
+      <div class="nav-item" [class.active]="activeSubNav === 'sponsors'">
+        <a href="javascript:void(0)" (click)="toggleSubNav('sponsors')">Sponsors</a>
+        <div class="sub-nav">
+          <a href="#ic-sponsors" routerLink="/ic-sponsors">Combustion</a>
+          <a href="#ev-sponsors" routerLink="/ev-sponsors">Electric</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  

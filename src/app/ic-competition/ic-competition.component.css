@@ -1,0 +1,102 @@
+.ev-competition-banner {
+    width: 100%;
+    height: 600px; /* Adjust as needed */
+    background-image: url('../../assets/home/home-hero-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px; /* Adjust based on navbar height */
+  }
+  
+  .ev-competition-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 80%; /* Adjust as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow */
+  }
+  
+  .ev-competition-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #F1B82D; /* Mizzou yellow for the header */
+  }
+  
+  .ev-competition-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+  }
+
+  .competition-days-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    background-color: #202020; /* Same dark background for consistency */
+  }
+  
+  .competition-day {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    background-color: #202020;
+    color: #fff;
+  }
+  
+  .competition-day-image {
+    flex: 1;
+    max-width: 500px; /* Adjust width as necessary */
+  }
+  
+  .competition-day-image img {
+    width: 100%;
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: solid 2px white;
+  }
+  
+  .competition-day-content {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .competition-day-content h3 {
+    font-size: 1.8rem;
+    color: #F1B82D; /* Mizzou yellow */
+    margin-bottom: 10px;
+  }
+  
+  .competition-day-content h4 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .competition-day-content p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .competition-day {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .competition-day-image {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  

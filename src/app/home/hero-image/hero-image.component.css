@@ -16,21 +16,68 @@ body, html {
   position: relative;
   overflow: hidden;
   background-image: url('../../../assets/home/home-hero-image.jpg');
-  background-size: cover; /* Ensures the background image covers the container */
-  background-position: center;
-  background-attachment: fixed; /* Creates the parallax effect */
+  background-size: 120%; /* Zoom in the image to 120% */
+  background-position: 50% 60%; /* Start with the image 60% down */
+  background-attachment: fixed; /* Keeps the background fixed */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  filter: brightness(0.7) contrast(0.9); /* Dims the image */
+  transition: background-position 0.1s ease-out, filter 0.3s ease-in-out;
 }
 
-/* Content to be placed on top of the hero image */
+/* Center the content on the hero section */
 .hero-content {
   position: relative;
-  z-index: 2; /* Make sure content is above the background image */
-  color: rgb(216, 252, 87);
+  z-index: 2; /* Make sure content is above the background */
+  color: #ffc531; /* You can adjust the color */
   text-align: center;
 }
 
+.hero-content h1 {
+  font-size: 5rem; /* Larger font size for 'Mizzou FSAE' */
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 5px 5px black;
+  text-transform: uppercase;
+}
+
+.hero-content h2 {
+  font-size: 2rem; /* Smaller font size for 'Welcome to' */
+  font-weight: 300; /* Lighter font weight */
+  margin: 0 0 10px 0; /* Add some space between 'Welcome to' and 'Mizzou FSAE' */
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 3px 3px black;
+  text-align: left;
+}
+
+/* Responsive text size for smaller screens */
 @media (max-width: 900px) {
   .hero-container {
     background-position: center;
+    background-size: 130%; /* Adjust background size for smaller screens */
+  }
+
+  .hero-content h1 {
+    font-size: 3rem; /* Smaller 'Mizzou FSAE' text */
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem; /* Smaller 'Welcome to' text */
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-container {
+    background-position: center;
+    background-size: 140%; /* Further zoom for very small screens to avoid repeats */
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem; /* Even smaller 'Mizzou FSAE' text */
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem; /* Even smaller 'Welcome to' text */
   }
 }

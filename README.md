@@ -31,7 +31,7 @@ If you would like to add a new sponsor, copy and paste the respective block of c
 <br><br>
 
 ## How to update the site with your changes.
-1. **Initialize Git:**  
+1. **Initialize Git**  
 If you haven't already initialized Git in your project, run this command to start version control in your project directory:
    ```bash
    git init
@@ -41,22 +41,22 @@ Add the repository URL as the remote origin:
    ```bash
    git remote add origin https://github.com/aidanPuricelli/mizzou-racing.git
    ```
-3. **Check Git Status:**
+3. **Check Git Status**  
 Check the status of your repository to see which files have changed:
    ```bash
    git status
    ```
-4. **Stage Your Changes:**
+4. **Stage Your Changes**  
 Add the changes to the staging area (all modified files):
    ```bash
    git add .
    ```
-5. **Commit Your Changes:**
+5. **Commit Your Changes**  
 Commit your staged changes with a descriptive message:
    ```bash
    git commit -m "Describe what changes you made"
    ```
-6. **Push Your Changes:**
+6. **Push Your Changes**  
 Push the changes to the main branch of the repository:
    ```bash
    git push origin main

@@ -28,4 +28,33 @@ Each smaller sponsor is represented by the above block of code.
 + To modify the logo image, edit the path inside of `src`.
 <br><br>
 If you would like to add a new sponsor, copy and paste the respective block of code.
+<br><br>
 
+## How to update the site with your changes.
+1. **Initialize Git**  
+If you haven't already initialized Git in your project, run this command to start version control in your project directory:
+   ```bash
+   git init
+   ```
+2. **Check Git Status**
+Check the status of your repository to see which files have changed:
+   ```bash
+   git status
+   ```
+3. **Stage Your Changes**
+Add the changes to the staging area (all modified files):
+   ```bash
+   git add .
+   ```
+4. **Commit Your Changes**
+Commit your staged changes with a descriptive message:
+   ```bash
+   git commit -m "Describe what changes you made"
+   ```
+5. **Push Your Changes**
+Push the changes to the main branch of the repository:
+   ```bash
+   git push origin main
+   ```
+
+Or, you can edit files directly through the Github page.

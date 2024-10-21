@@ -17,6 +17,8 @@ Each sponsor is represented by the above block of code.
 + To modify the name of the sponsor, edit the text inside of `h3`.
 + To modify the contribution of the sponsor, edit the text inside of `p`.
 
+
+
 ```html
 <div class="small-sponsor-card">
     <img src="../../assets/sponsors/zoltek.png" alt="Sponsor 1 Logo">
@@ -47,6 +49,8 @@ Navigate to `src/app/sub-team-name/sub-team-name.component.html` (e.g. `src/app/
 The 'What We Do...' card is represented by the above block of code.
 + To modify the What We Do text, edit the text inside of `p`.
 
+
+
 ```html
 <div class="aero-image-grid">
     <img src="../../assets/electronics/electronics1.jpg" alt="Aerodynamics work 1">
@@ -57,6 +61,8 @@ The 'What We Do...' card is represented by the above block of code.
 ```
 The grid of images in the middle of the page is represented by the above block of code.
 + To modify the images displayed in the grid, edit the paths inside of the `src` tags. 
+
+
 
 ```html
 <div class="subteam-lead-card-container">

@@ -62,4 +62,4 @@ Push the changes to the main branch of the repository:
    git push origin main
    ```
 
-Or, you can edit files directly through the Github page.
+**Or, you can edit files directly through the Github page.**

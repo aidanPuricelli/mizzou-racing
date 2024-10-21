@@ -4,7 +4,6 @@
 
 Navigate to `src/app/ev-sponsors/ev-sponsors.component.html` (replace `ev-sponsors` with `ic-sponsors` to update ic sponsor page). 
 
-```markdown
 ```html
 <div class="sponsor-card">
     <a href="#"><img src="../../assets/sponsors/Altium.png" alt="Sponsor 1 Logo"></a>
@@ -18,7 +17,6 @@ Each sponsor is represented by the above block of code.
 + To modify the name of the sponsor, edit the text inside of `h3`.
 + To modify the contribution of the sponsor, edit the text inside of `p`.
 
-```markdown
 ```html
 <div class="small-sponsor-card">
     <img src="../../assets/sponsors/zoltek.png" alt="Sponsor 1 Logo">

@@ -15,17 +15,24 @@ body, html {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url('../../../assets/home/MMTruman5.jpg');
+  background-image: url('../../../assets/aerodynamics/aero4.jpg');
   background-size: cover; /* Ensures the background image covers the container */
   background-position: center;
+
 }
 
 /* Content to be placed on top of the hero image */
 .hero-content {
   position: relative;
   z-index: 2; /* Make sure content is above the background image */
-  color: rgb(216, 252, 87);
+  color: #F1B82D;
   text-align: center;
+  font-size: 4rem;
+  text-shadow: 4px 4px black;
+}
+
+.white-text {
+  color: white;
 }
 
 @media (max-width: 900px) {

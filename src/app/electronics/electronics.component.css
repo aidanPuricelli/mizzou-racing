@@ -1,3 +1,8 @@
 .aero-banner {
     background-image: url('../../assets/electronics/electronics-banner.JPG');
   }
+
+.middle-banner {
+  border-top: solid 2px #f1b82d;
+  background-image: url('../../assets/electronics/high-voltage-banner.jpg');
+}

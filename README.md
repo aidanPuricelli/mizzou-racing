@@ -26,6 +26,6 @@ Each sponsor is represented by the above block of code.
 ```
 Each smaller sponsor is represented by the above block of code.
 + To modify the logo image, edit the path inside of `src`.
-
+<br><br>
 If you would like to add a new sponsor, copy and paste the respective block of code.
 

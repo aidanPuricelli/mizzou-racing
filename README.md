@@ -18,7 +18,7 @@ Each sponsor is represented by the above block of code.
 + To modify the contribution of the sponsor, edit the text inside of `p`.
 
 
-
+<br><br>
 ```html
 <div class="small-sponsor-card">
     <img src="../../assets/sponsors/zoltek.png" alt="Sponsor 1 Logo">
@@ -50,7 +50,7 @@ The 'What We Do...' card is represented by the above block of code.
 + To modify the What We Do text, edit the text inside of `p`.
 
 
-
+<br><br>
 ```html
 <div class="aero-image-grid">
     <img src="../../assets/electronics/electronics1.jpg" alt="Aerodynamics work 1">
@@ -63,7 +63,7 @@ The grid of images in the middle of the page is represented by the above block o
 + To modify the images displayed in the grid, edit the paths inside of the `src` tags. 
 
 
-
+<br><br>
 ```html
 <div class="subteam-lead-card-container">
     <div class="subteam-lead-card">

@@ -22,13 +22,6 @@
     margin-bottom: 10px;
   }
   
-  .footer-line {
-    width: 2px;
-    background-color: #F1B82D; /* Mizzou yellow line */
-    height: auto; /* Ensure it stretches the full height of the container */
-    margin: 0 10px; /* Add spacing around the line */
-    align-self: stretch; /* Makes the line extend the full height of the footer */
-  }
   
   .footer-contact h3, .footer-social h3 {
     margin-bottom: 10px;

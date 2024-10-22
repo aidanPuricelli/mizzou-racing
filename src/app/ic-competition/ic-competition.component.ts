@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './ic-competition.component.css'
 })
 export class IcCompetitionComponent {
+  
 
 }

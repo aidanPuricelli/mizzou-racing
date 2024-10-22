@@ -5,11 +5,12 @@
     background-image: url('../../assets/ev-history/JuneAutocross.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 120px; /* Adjust this value based on the height of your navbar */
+    z-index: -1;
+    top: 0;
   }
   
   .ev-history-text {
@@ -34,12 +35,14 @@
   }
   
   .card-container {
+    margin-top: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     background: rgb(15, 15, 15);
     padding: 20px 0px;
+    border-top: solid 2px #F1B82D;
   }
   
   
@@ -74,10 +77,15 @@
   }
   
   .history-car {
+    opacity: 0;
     text-align: center;
     color: #F1B82D; /* Mizzou yellow */
     position: relative;
   }
+
+  .history-car.animate__animated {
+    opacity: 1; /* Make visible when the animation starts */
+  } 
   
   .history-car h2 {
     font-size: 2rem;

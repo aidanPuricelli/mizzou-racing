@@ -1,7 +1,7 @@
 .meet-the-team-banner {
     width: 100%;
     height: 400px; /* Adjust as needed */
-    background-image: url('../../assets/meet-the-team/hero-banner.JPG'); /* Replace with your image path */
+    background-image: url('../../assets/meet-the-team/team-banner.JPG'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -88,6 +88,7 @@
     flex-direction: column; /* Stack cards vertically */
     gap: 20px; /* Space between each card */
     padding: 20px;
+    background: rgb(15, 15, 15);
   }
   
   .team-card {

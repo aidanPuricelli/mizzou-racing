@@ -1,27 +1,65 @@
-# RacingSite
+# Updating this website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+## Sponsors
 
-## Development server
+Navigate to `src/app/ev-sponsors/ev-sponsors.component.html` (replace `ev-sponsors` with `ic-sponsors` to update ic sponsor page). 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```html
+<div class="sponsor-card">
+    <a href="#"><img src="../../assets/sponsors/Altium.png" alt="Sponsor 1 Logo"></a>
+    <h3>Sponsor 4</h3>
+    <p>Funding</p>
+</div>
+```
+Each sponsor is represented by the above block of code. 
++ To modify the logo image, edit the path inside of `src`.
++ To modify the sponsors url, edit the path inside of `href`.
++ To modify the name of the sponsor, edit the text inside of `h3`.
++ To modify the contribution of the sponsor, edit the text inside of `p`.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br><br>
+```html
+<div class="small-sponsor-card">
+    <img src="../../assets/sponsors/zoltek.png" alt="Sponsor 1 Logo">
+</div>
+```
+Each smaller sponsor is represented by the above block of code.
++ To modify the logo image, edit the path inside of `src`.  
 
-## Build
+**If you would like to add a new sponsor, copy and paste the respective block of code.**
+<br><br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to update the site with your changes.
+1. **Initialize Git**  
+If you haven't already initialized Git in your project, run this command to start version control in your project directory:
+   ```bash
+   git init
+   ```
+2. **Add the Remote Origin:**  
+Add the repository URL as the remote origin:
+   ```bash
+   git remote add origin https://github.com/aidanPuricelli/mizzou-racing.git
+   ```
+3. **Check Git Status**  
+Check the status of your repository to see which files have changed:
+   ```bash
+   git status
+   ```
+4. **Stage Your Changes**  
+Add the changes to the staging area (all modified files):
+   ```bash
+   git add .
+   ```
+5. **Commit Your Changes**  
+Commit your staged changes with a descriptive message:
+   ```bash
+   git commit -m "Describe what changes you made"
+   ```
+6. **Push Your Changes**  
+Push the changes to the main branch of the repository:
+   ```bash
+   git push origin main
+   ```
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Or, you can edit files directly through the Github page.**

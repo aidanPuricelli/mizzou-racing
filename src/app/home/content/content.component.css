@@ -6,6 +6,7 @@
     width: 100%;
     background: rgb(15, 15, 15);
     padding: 100px 0px;
+    overflow-x: hidden;
   }
 
   .top-card {

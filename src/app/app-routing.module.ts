@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { EvHistoryComponent } from './ev-history/ev-history.component';
 import { IcHistoryComponent } from './ic-history/ic-history.component';
@@ -62,6 +62,11 @@ const routes: Routes = [
 
   { path: '**', redirectTo: '/home' } 
 ];
+
+const routerOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled', // Scrolls to top on route change
+  anchorScrolling: 'enabled', // Enables anchor scrolling if needed
+};
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],

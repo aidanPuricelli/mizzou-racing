@@ -9,7 +9,6 @@ body, html {
     height: 100%;
     background-color: rgba(17, 17, 17, 0);
     height:  100%;
-    overflow-x: hidden;
 }
 
 /* Sub Team Stylings */
@@ -65,6 +64,7 @@ body, html {
     padding: 100px 0px;
     margin-top: 600px;
     border-top: solid 2px #F1B82D;
+    overflow-x: hidden;
   }
   
   .aero-card {
@@ -94,6 +94,7 @@ body, html {
   .grid-background {
     background: rgb(15, 15, 15);
     width: 100%;
+    overflow-x: hidden;
   }
 
   .aero-image-grid {

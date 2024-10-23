@@ -120,6 +120,10 @@ body, html {
     padding: 100px;
     background: rgb(15, 15, 15);
   }
+
+  .quote-container p {
+    font-size: 1.7rem;
+  }
   
   /* Adjust for smaller screens */
   @media (max-width: 768px) {

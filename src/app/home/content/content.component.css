@@ -24,6 +24,25 @@
     box-shadow: 5px 5px #ad8622; /* Adds a subtle shadow */
     padding: 80px 30px 80px 30px;
   }
+
+  /* .contact-card {
+    padding-top: 400px;
+  } */
+
+  .timer {
+    position: absolute;
+    top: 180vh;
+    
+  }
+
+  .timer-cover {
+    position: absolute;
+    top: 211vh;
+    background: #202020;
+    width: 100vw;
+    height: 5vh;
+    z-index: 5;
+  }
   
   .card-left, .card-right {
     padding: 20px;

@@ -21,6 +21,9 @@ import { EvCompetitionComponent } from './ev-competition/ev-competition.componen
 import { IcCompetitionComponent } from './ic-competition/ic-competition.component';
 import { EvSponsorsComponent } from './ev-sponsors/ev-sponsors.component';
 import { IcSponsorsComponent } from './ic-sponsors/ic-sponsors.component';
+import { ScrollLineComponent } from './scroll-line/scroll-line.component';
+import { CommonModule } from '@angular/common';
+import { ParallaxMousemoveDirective } from './parallax-mousemove.directive';
 
 @NgModule({
   declarations: [
@@ -42,11 +45,14 @@ import { IcSponsorsComponent } from './ic-sponsors/ic-sponsors.component';
     EvCompetitionComponent,
     IcCompetitionComponent,
     EvSponsorsComponent,
-    IcSponsorsComponent
+    IcSponsorsComponent,
+    ScrollLineComponent,
+    ParallaxMousemoveDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [
     provideClientHydration()

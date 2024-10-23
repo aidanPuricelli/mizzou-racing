@@ -3,7 +3,7 @@
     top: 120px;
     left: 0;
     height: 4px; /* The height of the line */
-    background-color: #aa8321; /* Example color, adjust as needed */
+    background-color: #b49b5c; /* Example color, adjust as needed */
     width: 0; /* Initial width of 0% */
     transition: width 0.2s ease; /* Smooth transition for width change */
     z-index: 6;
